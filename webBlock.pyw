@@ -7,7 +7,7 @@ redirect = "127.0.0.1"
 web_list = ["www.facebook.com", "facebook.com", "mail.google.com", "www.mail.google.com", "mail.google.com/mail/?authuser=0"]
 
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day, 16) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 17):
+    if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 16):
         print("Working hours...")
         with open(hosts_path, 'r+') as file:
             hosts_content = file.read()
